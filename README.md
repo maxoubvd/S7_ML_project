@@ -27,6 +27,10 @@ The analysis places a strong emphasis on Recall over Precision, utilizing the F2
   - `PCA`
   - `StandardScaler`
   - `LogisticRegression`
+  - `Decision Trees`
+  - `Ensemble Models`
+  - `Gradient Boosting Techniques`
+
 
 ## Methodology & Results
 
@@ -43,7 +47,6 @@ As noted in the project conclusion, the final model adopts an aggressive strateg
 
 While this results in a model that "over-predicts" churn (described in the analysis as slightly "psychopathic"), it ensures that the majority of at-risk clients are flagged for retention efforts.
 
-
 ## Visualizations
 
 The notebook includes detailed visualizations, including:
@@ -51,3 +54,4 @@ The notebook includes detailed visualizations, including:
 - Confusion Matrices (visualizing True Positives vs. False Negatives).
 - PCA component analysis.
 - Data distribution plots using Seaborn.
+- Comparisons of Models' performances.
